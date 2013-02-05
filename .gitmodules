@@ -1,3 +1,6 @@
 [submodule "modules/Facebook"]
 	path = modules/Facebook
 	url = git://github.com/ypcs/facebook-mediawiki.git
+[submodule "modules/mediawiki-core"]
+	path = modules/mediawiki-core
+	url = git://github.com/ypcs/mediawiki-core.git
