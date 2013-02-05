@@ -1,0 +1,3 @@
+[submodule "modules/Facebook"]
+	path = modules/Facebook
+	url = git://github.com/ypcs/facebook-mediawiki.git
