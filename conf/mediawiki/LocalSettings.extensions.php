@@ -16,13 +16,13 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 /** 
  * Load specified $extension
  *
- * @param $extension extension to be loaded (Just extension name, $IP/$extension/$extension.php will be loaded if file_exists)
+ * @param $extension extension to be loaded (Just extension name, $IP/extensions/$extension/$extension.php will be loaded if file_exists)
  * @return returns true if successful, otherwise false
  */
 function load_extension($extension) {
 	global $IP;
 	$xt = basename($extension);
-	$file = "$IP/$xt/$xt.php";
+	$file = "$IP/extensions/$xt/$xt.php";
 
 	if (file_exists($file)) {
 		return require_once($file);
